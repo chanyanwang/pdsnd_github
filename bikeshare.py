@@ -200,7 +200,8 @@ def display_data(df):
 def main():
     while True:
 
-        city, month, day = get_filters()
+        #city, month, day = get_filters()
+        city, month, day = 'chicago', 'june', 'wednesday'
         df = load_data(city, month, day)
 
         # the following functions display statistic information
