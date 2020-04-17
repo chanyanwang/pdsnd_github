@@ -5,13 +5,18 @@ This project and README file are created at 2020-04-17
 Bike Share
 
 ### Description
-In this project, we will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. 
-We will write code to import the data and answer interesting questions about it by computing descriptive statistics. 
-We will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, we will 
+1. make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. 
+2. write code to import the data and answer interesting questions about it by computing descriptive statistics. 
+3. also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-The CSV files chicago.csv, new_york_city.csv, washington.csv and the code file bikeshare.py are used
-
+The CSV files and code file are
+1. chicago.csv
+2. new_york_city.csv
+3. washington.csv 
+4. file bikeshare.py 
+	
 ### Credits
 Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. 
 Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, 
