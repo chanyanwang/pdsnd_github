@@ -30,9 +30,11 @@ def get_filters():
         elif filters == 'month':
             month = str(input("Enter the month(January to June) to filter by where none to apply no month filter\n ")).lower()
             day = 'none'
+
         elif filters == 'day':
             month = 'none'
             day = str(input("Enter the day of week(Monday to Sunday) to filter by where none to apply no day filter\n")).lower()
+
         else:
             month = 'none'
             day = 'none'
@@ -50,7 +52,6 @@ def get_filters():
 
         else:
             print("\n Thanks for your information, we got the values correctly\n")
-
             break
 
     print('-'*40)
@@ -199,7 +200,8 @@ def display_data(df):
 def main():
     while True:
 
-        city, month, day = get_filters()
+        #city, month, day = get_filters()
+        city, month, day = 'chicago', 'june', 'wednesday'
         df = load_data(city, month, day)
 
         # the following functions display statistic information
